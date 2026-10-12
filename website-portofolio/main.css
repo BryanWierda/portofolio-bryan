@@ -4,9 +4,13 @@
 }
 nav{
    display: flex;
+   position: sticky;
+   top: 0px;
     background-color: purple;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 h1{
     display: flex;
@@ -15,7 +19,9 @@ h1{
 }
 
 .biography{
-    
+    background-color: green;
+    border: none;
+    border-radius: 10px;
 }
 
 .projects{
