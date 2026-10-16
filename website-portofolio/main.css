@@ -20,6 +20,12 @@ nav{
     padding: 5px;
 }
 
+.informatie{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .woord{
     display: flex;
     align-items: flex-start;
@@ -50,6 +56,22 @@ h1{
 
 .projecten{
     background-color: #B7B3A1;
+}
+
+.img1{
+    width: 40%;
+}
+
+.banner1{
+    width: 20%;
+}
+
+.banner2{
+    width: 50%;
+}
+
+.banner3{
+    width: 50%;
 }
 
 .projecten:hover{
