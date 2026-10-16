@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 
 .section{
@@ -12,10 +13,15 @@ nav{
     position: sticky;
     top: 0px;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
     padding-bottom: 30px;
-    background-color: #EDBF85
+    background-color: #EDBF85;
+    justify-content: space-between;
+}
+
+.woord{
+    display: flex;
+    align-items: flex-start;
 }
 
 h1{
@@ -24,40 +30,36 @@ h1{
     align-items: center;    
 }
 
-.biography{
-    background-color: green;
-    border: none;
-    border-radius: 10px;
-}
-
-.projects{
+.home{
+    background-color: #B7B3A1;
     
 }
 
-.interview{
-    
+.over{
+    background-color: #B7B3A1;
+}
+
+.projecten{
+    background-color: #B7B3A1;
 }
 
 .contact{
-    
+    background-color: #B7B3A1;
 }
 
-.social{
-    
+.formulier{
+    display: flex;
+    justify-content: center;    
+}    
+.demon{
+    border: 10px solid #D1CA98;
+    padding-left: 20px;
 }
 
-.opleidingen{
-    
-}
-
-.video{
-    
-}
 
 th{
     border: 1px solid black;
     padding: 5px;
-    
 }
 td{
     border: 1px solid black;
@@ -100,11 +102,9 @@ td{
 
 footer{
     display: flex;
-    position: sticky;
     top: 10px;
     align-items: center;
     justify-content: space-around;
-    overflow: hidden;
     padding-top: 30px;
     background-color: #EDBF85;
     padding: 30px;
