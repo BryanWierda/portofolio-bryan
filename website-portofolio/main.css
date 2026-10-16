@@ -17,6 +17,7 @@ nav{
     padding-bottom: 30px;
     background-color: #EDBF85;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .woord{
@@ -35,16 +36,32 @@ h1{
     
 }
 
+.home:hover{
+    color: #D1CA98;
+}
+
 .over{
     background-color: #B7B3A1;
+}
+
+.over:hover{
+    color: #D1CA98;
 }
 
 .projecten{
     background-color: #B7B3A1;
 }
 
+.projecten:hover{
+    color: #D1CA98;
+}
+
 .contact{
     background-color: #B7B3A1;
+}
+
+.contact:hover{
+    color: #D1CA98;
 }
 
 .formulier{
