@@ -4,6 +4,11 @@
 
 }
 
+body{
+    background-color: #5F5B6B;
+    color: white;
+}
+
 .section{
     padding-left: 10px;
 }
@@ -15,7 +20,7 @@ nav{
     align-items: center;
     overflow: hidden;
     padding-bottom: 30px;
-    background-color: #EDBF85;
+    background-color: #535051;
     justify-content: space-between;
     padding: 5px;
 }
@@ -38,8 +43,8 @@ h1{
 }
 
 .home{
-    background-color: #B7B3A1;
-    
+    background-color: #7F7979;
+    color: white;
 }
 
 .home:hover{
@@ -47,7 +52,8 @@ h1{
 }
 
 .over{
-    background-color: #B7B3A1;
+    background-color: #7F7979;
+    color: white;
 }
 
 .over:hover{
@@ -55,7 +61,21 @@ h1{
 }
 
 .projecten{
-    background-color: #B7B3A1;
+    background-color: #7F7979;
+    color: white;
+}
+
+.projecten:hover{
+    color: #D1CA98;
+}
+
+.contact{
+    background-color: #7F7979;
+    color: white;
+}
+
+.contact:hover{
+    color: #D1CA98;
 }
 
 .img1{
@@ -74,34 +94,22 @@ h1{
     width: 50%;
 }
 
-.projecten:hover{
-    color: #D1CA98;
-}
-
-.contact{
-    background-color: #B7B3A1;
-}
-
-.contact:hover{
-    color: #D1CA98;
-}
-
 .formulier{
     display: flex;
     justify-content: center;    
 }    
 .demon{
-    border: 10px solid #D1CA98;
+    border: 10px solid #323031;
     padding-left: 20px;
 }
 
 
 th{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
 }
 td{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
 }
 
@@ -119,7 +127,7 @@ td{
 }
 .links a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .rechts{
@@ -130,7 +138,7 @@ td{
 }
 .rechts a{
     text-decoration-line: none;
-    color: black;
+    color: white;
 }
 
 
@@ -145,6 +153,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     padding-top: 30px;
-    background-color: #EDBF85;
+    background-color: #535051;
     padding: 30px;
+
 }
