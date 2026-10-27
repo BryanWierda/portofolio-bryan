@@ -84,6 +84,8 @@ h1{
 
 .banner1{
     width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .banner2{
@@ -99,7 +101,7 @@ h1{
     justify-content: center;    
 }    
 .demon{
-    border: 10px solid #323031;
+    border: 10px solid white;
     padding-left: 20px;
 }
 
