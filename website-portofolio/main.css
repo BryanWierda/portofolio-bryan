@@ -4,9 +4,33 @@
 
 }
 
+html{
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #5F5B6B;
     color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    justify-content: center;
 }
 
 .section{
@@ -45,6 +69,7 @@ h1{
 .home{
     background-color: #7F7979;
     color: white;
+    text-decoration: none;
 }
 
 .home:hover{
@@ -54,6 +79,7 @@ h1{
 .over{
     background-color: #7F7979;
     color: white;
+    text-decoration: none;
 }
 
 .over:hover{
@@ -63,6 +89,7 @@ h1{
 .projecten{
     background-color: #7F7979;
     color: white;
+    text-decoration: none;
 }
 
 .projecten:hover{
@@ -72,6 +99,7 @@ h1{
 .contact{
     background-color: #7F7979;
     color: white;
+    text-decoration: none;
 }
 
 .contact:hover{
@@ -82,24 +110,46 @@ h1{
     width: 40%;
 }
 
-.banner1{
-    width: 20%;
+.prim{
     display: flex;
     justify-content: center;
 }
 
+.ban{
+    display: flex;
+    justify-content: center;
+}
+
+.banner1{
+    width: 20%;
+    height: 20%;
+    padding-left: 5%;
+    padding-top: 12%;
+}
+
 .banner2{
-    width: 50%;
+    width: 20%;
+    padding-right: 5%;
 }
 
 .banner3{
-    width: 50%;
+    width: 75%;
+}
+
+.ban3{
+    display: flex;
+    justify-content: center;
 }
 
 .formulier{
     display: flex;
     justify-content: center;    
 }    
+
+.staan{
+    justify-content: flex-start;
+}
+
 .demon{
     border: 10px solid white;
     padding-left: 20px;
