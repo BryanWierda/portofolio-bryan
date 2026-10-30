@@ -73,7 +73,7 @@ h1{
 }
 
 .home:hover{
-    color: #D1CA98;
+    color: #535051;
 }
 
 .over{
@@ -83,7 +83,7 @@ h1{
 }
 
 .over:hover{
-    color: #D1CA98;
+    color: #535051;
 }
 
 .projecten{
@@ -93,7 +93,7 @@ h1{
 }
 
 .projecten:hover{
-    color: #D1CA98;
+    color: #535051;
 }
 
 .contact{
@@ -103,7 +103,7 @@ h1{
 }
 
 .contact:hover{
-    color: #D1CA98;
+    color: #535051;
 }
 
 .img1{
@@ -133,7 +133,7 @@ h1{
 }
 
 .banner3{
-    width: 75%;
+    width: 60%;
 }
 
 .ban3{
@@ -198,7 +198,6 @@ td{
 
 
 
-
 footer{
     display: flex;
     top: 10px;
@@ -207,5 +206,4 @@ footer{
     padding-top: 30px;
     background-color: #535051;
     padding: 30px;
-
 }
