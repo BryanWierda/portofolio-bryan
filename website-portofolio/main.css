@@ -201,14 +201,18 @@ td{
     color: white;
 }
 
-
+.text{
+    display: flex;
+    justify-content: center;
+    width: 730px;
+    height: 100px;
+}
 
 
 
 
 footer{
     display: flex;
-    top: 0px;
     align-items: center;
     justify-content: space-around;
     background-color: #535051;
