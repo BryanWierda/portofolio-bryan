@@ -21,7 +21,6 @@
      </div>
      
     </nav>
-   
 
     <h1 id="home">Welkom bij mijn portfolio</h1>
 
@@ -42,9 +41,8 @@
     <p>Momenteel ben ik bezig met de opleiding Software Developer en zit ik in het 1ste jaar.</p>
         
     <p>Hiervoor heb ik de opleiding IT Allround system and devices gedaan en afgerond.</p>
-    `
-    <img src="" alt="">
-
+    
+    <img class="bryan" src="bryan.jpg" alt="foto">
 
     </div>
 
@@ -148,9 +146,6 @@
     <h2>video</h2>
     <iframe class="video" src="https://youtube.com/embed/dQw4w9WgXcQ?si=3Qb9wuiJlgBOYBjO" target="_blank"" frameborder="0"></iframe>
 
-    
-    
-
     <br> <br id="contact"> <br> <br>
 
     <div class="formulier">
@@ -158,15 +153,15 @@
     <h2>Als u contact met mij wilt opnemen laat gerust uw Informatie hier achter.</h2>
     
     <h3 class="staan">geslacht</h3>
-    <input type="radio">Dhr.
-    <input type="radio">Mevr.
-    <input type="radio">Anders.
+    <input type="radio" name="Aanhef">Dhr.
+    <input type="radio" name="Aanhef">Mevr.
+    <input type="radio" name="Aanhef">Anders.
    
     <h3 class="staan">voornaam</h3>
-    <input type="text">
+    <input type="text" pattern="[a-zA-Z\s]+" required>
 
     <h3 class="staan">achternaam</h3>
-    <input type="text">
+    <input type="text" pattern="[a-zA-Z\s]+" required>
 
    <h3 class="staan">Email</h3>
    <input type="email" placeholder="...@gmail/outlook.com">
@@ -174,9 +169,12 @@
    <h3 class="staan">Telefoonnummer</h3>
    <input type="text" placeholder="06 12345678">
 
+   <h3 class="staan">Laat een berichtje achter waarover je mij wilt contacteren.</h3>
+   <input type="text">
+
    <br>
 
-   <input type="submit">
+   <button type="submit">versturen</button>
    </div>
    
      </div>

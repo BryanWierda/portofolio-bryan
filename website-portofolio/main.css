@@ -106,6 +106,14 @@ h1{
     color: #535051;
 }
 
+.bryan{
+    display: flex;
+    margin-left: 45%;
+    padding-top: 3%;
+    width: 10%;
+    height: 10%;
+}
+
 .img1{
     width: 40%;
 }
@@ -200,10 +208,9 @@ td{
 
 footer{
     display: flex;
-    top: 10px;
+    top: 0px;
     align-items: center;
     justify-content: space-around;
-    padding-top: 30px;
     background-color: #535051;
-    padding: 30px;
+    padding: 20px;
 }
