@@ -28,10 +28,6 @@ p{
     display: flex;
     justify-content: center;
 }
-.video{
-    display: flex;
-    justify-content: center;
-}
 
 .section{
     padding-left: 10px;
@@ -147,6 +143,11 @@ h1{
 .ban3{
     display: flex;
     justify-content: center;
+}
+
+.video{
+    display: flex;
+    margin-left: 40%;
 }
 
 .formulier{
