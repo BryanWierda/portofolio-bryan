@@ -14,7 +14,7 @@ body{
     color: white;
 }
 
-h1{
+.h1{
     padding-bottom: 50px;
 }
 
@@ -114,6 +114,10 @@ h1{
     height: 10%;
 }
 
+.interview{
+    padding-top: 50px;
+}
+
 .img1{
     width: 40%;
 }
@@ -121,6 +125,7 @@ h1{
 .prim{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .ban{
@@ -154,6 +159,10 @@ h1{
     margin-left: 40%;
 }
 
+.vid{
+    padding-top: 50px;
+}
+
 .formulier{
     display: flex;
     justify-content: center;    
@@ -181,6 +190,7 @@ td{
 .center{
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
 }
 
 .links{
