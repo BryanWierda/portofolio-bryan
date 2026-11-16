@@ -1,3 +1,7 @@
+
+body{
+    font-family: graphik, arial, helvetica, sans-serif;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -65,5 +69,21 @@ h2{
 
 .button{
     font-size: 16px;
-    background-color: lab(39.67% 20.95 -47.2);
+    background-color: lab(37.97% 39.83 -78.61);
+    color: white;
+    border: none;
+    padding: 17px;
+    border-radius: 10%;
+}
+
+p{
+    padding-left: 7%;
+    padding-right: 7%;
+    text-underline-offset: 4px;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
