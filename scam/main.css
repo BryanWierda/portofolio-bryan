@@ -55,7 +55,6 @@ h2{
 
 .vergeten{
     padding-left: 7%;
-    font-size: large;
     text-underline-offset: 4px;
 }
 
@@ -86,4 +85,45 @@ p{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+input[type=email] {
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  transition: 0.5s;
+  outline: none;
+  width: 400px;
+  height: 63.6px;
+}
+
+input[type=email]:focus {
+  border: 1px solid blue;
+}
+
+input[type=password] {
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  transition: 0.5s;
+  outline: none;
+  width: 400px;
+  height: 63.6px;
+}
+
+input[type=password]:focus {
+  border: 1px solid blue; 
+}
+
+input:focus::placeholder{
+    color: blue;
+    font-size: 12px;
+    position: relative;
+    top: -18px;
+}
+
+.view{
+    display: flex;
+    position: absolute;
+    width: 2%;
+    margin-left: 350px;
+    margin-top: -3%;
 }
